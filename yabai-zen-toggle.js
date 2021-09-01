@@ -13,11 +13,7 @@ const rightPadding = exec(
 ).trim()
 
 if (rightPadding === '15') {
-  exec(`yabai -m space --padding abs:15:15:700:700`, {
-    silent: true,
-  })
+  exec(`yabai -m space --padding abs:15:15:700:700`)
 } else {
-  exec(`yabai -m space --padding abs:15:15:15:15`, {
-    silent: true,
-  })
+  exec(`yabai -m space --padding abs:15:15:15:15`)
 }
